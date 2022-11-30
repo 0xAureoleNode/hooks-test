@@ -1,10 +1,10 @@
-import React from "react";
-import GithubUsers from "./components/customHook/GithubUsers";
+import React from 'react';
+import Counter from './components/Counter';
 
 const App = () => {
   return (
     <div>
-      <GithubUsers />
+      <Counter />
     </div>
   );
 };
