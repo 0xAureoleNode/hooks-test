@@ -3,9 +3,14 @@ import React from 'react';
 // import UseStateArray from './components/UseStateArray';
 // import UseStateObject from './components/UseStateObject';
 // import Conditionals from './components/Conditionals';
+import Conditionals2 from './components/Conditionals2';
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Conditionals2 />
+    </div>
+  );
 };
 
 export default App;

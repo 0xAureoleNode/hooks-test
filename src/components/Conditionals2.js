@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Conditionals2 = () => {
-  return <div>Conditionals2</div>;
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  let message = 'Welcome aureole';
+  return (
+    <div>{isLoggedIn && <h1 className="--text-center --p2">{message}</h1>}</div>
+  );
 };
 
 export default Conditionals2;
