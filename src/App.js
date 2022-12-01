@@ -5,12 +5,13 @@ import React from 'react';
 // import Conditionals from './components/Conditionals';
 // import Conditionals2 from './components/Conditionals2';
 // import ConditionalsCss from './components/ConditionalsCss';
-import TaskList from './components/TaskList';
+// import TaskList from './components/TaskList';
+import Profile from './components/profile/Profile';
 
 const App = () => {
   return (
     <div>
-      <TaskList />
+      <Profile />
     </div>
   );
 };
