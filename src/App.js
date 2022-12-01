@@ -4,12 +4,13 @@ import React from 'react';
 // import UseStateObject from './components/UseStateObject';
 // import Conditionals from './components/Conditionals';
 // import Conditionals2 from './components/Conditionals2';
-import ConditionalsCss from './components/ConditionalsCss';
+// import ConditionalsCss from './components/ConditionalsCss';
+import TaskList from './components/TaskList';
 
 const App = () => {
   return (
     <div>
-      <ConditionalsCss />
+      <TaskList />
     </div>
   );
 };
